@@ -1,5 +1,6 @@
 # Repository2
 added text
+updated in branch1
 
 Very few people have the ability to test their software under multiple operating-systems with different versions of the core code and with other contributed packages they may use. For R, the Comprehensive R Archive Network (CRAN) runs tests routinely. To see how this is valuable, suppose Sally contributes a package A. Sally only runs the current version of the software under one version of Microsoft Windows, and has only tested it in that environment. At more or less regular intervals, CRAN tests Sally's contribution under a dozen combinations of operating systems and versions of the core R language software. If one of them generates an error, she gets that error message. With luck, that error message may suffice to allow her to fix the error, even if she cannot replicate it with the hardware and software she has. Next, suppose John contributes to the repository a package B that uses a package A. Package B passes all the tests and is made available to users. Later, Sally submits an improved version of A, which unfortunately, breaks B. The autochecks make it possible to provide information to John so he can fix the problem.
 
